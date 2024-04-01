@@ -1,6 +1,6 @@
 <nav>
         <a href="#" class="nav__logo">
-            <img src="./images/white-logo.svg" alt="Logo | Appvilla" class="nav__logo-white">
+            <img src="<?php echo get_template_directory_uri() ?>./images/white-logo.svg" alt="Logo | Appvilla" class="nav__logo-white">
             <img src="./images/logo.svg" alt="Logo | Appvilla" class="nav__logo-orange">
         </a>
         <ul class="nav__links">
